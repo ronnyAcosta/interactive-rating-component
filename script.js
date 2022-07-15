@@ -1,8 +1,5 @@
 let numbers = document.getElementsByClassName('numbers');
-//let selectedNumber;
 let preSelectedNumber = 0;
-
-//console.log(selectedNumber);
 function selectNumber(number){
     for(let circle of numbers){
         circle.style.backgroundColor='hsl(213, 19%, 23%)';
@@ -23,7 +20,6 @@ function submitNumber(){
         submitedState.style.flexDirection='column';
         submitedState.style.alignItems='center';
         ratingState.style.display='none';
-        //console.log(selectedNumber);
     }
     else{
         alert("Elija un número!");
