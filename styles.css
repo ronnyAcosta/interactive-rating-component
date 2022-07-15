@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(216, 12%, 8%);
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Overpass', sans-serif;
+}
+p, .numbers{
+    font-size: 15px;
+    color: hsl(216, 12%, 54%);
+    line-height: 1.5em;
+}
+
+#container{
+    background-color: hsl(213, 19%, 18%);
+    max-width: 405px;
+    padding: 30px 25px 20px;
+    border-radius: 25px;
+    margin: 0 25px;
+}
+#star-icon{
+    padding: 15px;
+    background-color: hsl(213, 19%, 23%);
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+
+#title{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.72em;
+    margin-bottom: 10px;
+}
+
+#rating{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+.numbers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:50px;
+    width:50px;
+    border-radius:25px;
+    background-color: hsl(213, 19%, 23%);
+    font-weight: 700;
+}
+.numbers:hover{
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+
+}
+#submit{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    border: none;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 25px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    font-size: 15px;
+    width: 100%;
+
+}
+#submit:hover{
+    cursor: pointer;
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+}
+
+#submited-state{
+    display: none;
+}
+#selected-paragraph{
+    padding: 5px 20px 2.5px;
+    margin: 25px 0;
+    background-color: hsl(213, 19%, 23%);
+    color: hsl(25, 97%, 53%);
+    border-radius: 25px;
+}
+h2{
+    color: white;
+    font-size: 1.72em;
+    margin: 10px 0;
+}
+#submited-paragraph{
+    text-align: center;
+    margin: 0 1px 15px;
+}
+@media screen and (max-width: 600px){
+    #container{
+        max-width: 345px;
+    }
+    
+}
+.attribution { 
+    font-size: 11px; text-align: center; 
+    margin-top: 20px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
