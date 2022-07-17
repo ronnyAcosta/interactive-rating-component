@@ -61,6 +61,10 @@ p, .numbers{
     background-color: hsl(25, 97%, 53%);
 
 }
+.numbers.active{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
 #submit{
     background-color: hsl(25, 97%, 53%);
     color: white;
