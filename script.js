@@ -7,7 +7,7 @@ function selectNumber(number){
     
     number.classList.add('active');
     preSelectedNumber = number.innerHTML;
-    console.log(preSelectedNumber)
+    console.log(preSelectedNumber);
 }
 function submitNumber(){
     if(preSelectedNumber > 0){
